@@ -1,6 +1,6 @@
 node('Maven') {
 
-    def IMAGE_NAME = "beshoybotros/python-iti-main-jenkins"
+    def IMAGE_NAME = "beshoybotros/python-iti-main-jenkins-scripted"
 
     stage('Checkout') {
         git branch: 'main', url: 'https://github.com/BeshoiBotros/python-iti-main-jenkins'
